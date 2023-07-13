@@ -4,8 +4,8 @@ package HW;
 import java.util.Scanner;
 public class Task_2 {
     public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    int top = scanner.nextInt();
+    Scanner Scanner = new Scanner(System.in);
+    int top = Scanner.nextInt();
     for (int i=2;i<top;i++){
         if(checkSimple(i))
             System.out.println(i);
