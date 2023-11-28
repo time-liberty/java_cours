@@ -1,51 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="f8a74655-59cd-40da-8342-7408f212f723" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/Java_cours.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/java_cours.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/json_simple_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/task1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/.idea/seminar4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/MyArrayList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/Person.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/Program.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/java_cours.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/new note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/out/production/seminar4/.idea/seminar4.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/out/production/seminar4/java_cours.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/seminar4/Sample01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seminar4/task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Git/Git Bash.lnk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Git/Git CMD.lnk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Git/Git GUI.lnk" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Git/Git Release Notes.lnk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW/Task_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW/Task_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW/Task_3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEMINAR2/Task_1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEMINAR2/Task_2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEMINAR2/desktop.ini" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SEMINAR2/json-simple-1.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/new note.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/note.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/seminar3/HW/task_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../python/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../python/lesson1" beforeDir="false" afterPath="$PROJECT_DIR$/../../python/lesson1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../pythonProject/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../pythonProject/main.py" afterDir="false" />
@@ -74,6 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "20",
     "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
