@@ -22,5 +22,9 @@ public class Main {
         lion.swim();
         Fish fish = new Fish();
         fish.fly();
+        VeterinaryClinic clinic = new VeterinaryClinic();
+        clinic.addPatients(cat).addPatients(dog);
+        //System.out.println(clinic.getPatients());
+        System.out.println(clinic.getGoable());
     }
 }

@@ -6,6 +6,12 @@ public class Fish extends Animal{
         super(name, illness, ownerName, birthday);
 
     }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
     public void toGo(){
         System.out.println("no run");
     }

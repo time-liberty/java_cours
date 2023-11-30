@@ -7,6 +7,12 @@ public class Eagle extends Animal{
     public Eagle(String name, Illness illness, String ownerName, LocalDate birthday){
         super(name, illness, ownerName, birthday);
     }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
     public void toGo(){
         System.out.println("no run");
     }
