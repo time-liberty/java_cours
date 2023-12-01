@@ -8,4 +8,7 @@ public class Nurse extends Personnel{
     public String getSurnamePersonnel() {
         return surnamePersonnel;
     }
+    public void injection(){
+        System.out.println("give an injection");
+    }
 }

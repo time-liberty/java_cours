@@ -8,4 +8,8 @@ public class Doctor extends Personnel{
     public String getSurnamePersonnel() {
         return surnamePersonnel;
     }
+    public void reception(){
+        System.out.println("start reception");
+    }
 }
+
