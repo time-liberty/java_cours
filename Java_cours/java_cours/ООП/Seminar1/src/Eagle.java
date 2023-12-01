@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Eagle extends Animal{
+public class Eagle extends Animal implements Flyable{
     public Eagle(){
         super();
     }
@@ -18,5 +18,10 @@ public class Eagle extends Animal{
     }
     public void swim(){
         System.out.println("no swiming");
+    }
+
+    @Override
+    public void Fly() {
+
     }
 }

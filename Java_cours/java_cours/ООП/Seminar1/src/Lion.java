@@ -1,6 +1,6 @@
 import java.time.LocalDate;
 
-public class Lion extends Animal {
+public class Lion extends Animal implements Goable{
     public Lion(){super();}
     public Lion(String name, Illness illness, String ownerName, LocalDate birthday){
         super(name, illness, ownerName, birthday);
@@ -16,5 +16,10 @@ public class Lion extends Animal {
     }
     public void fly(){
         System.out.println("no flying");
+    }
+
+    @Override
+    public void run() {
+        return;
     }
 }

@@ -22,9 +22,22 @@ public class Main {
         lion.swim();
         Fish fish = new Fish();
         fish.fly();
+        Eagle eagle = new Eagle();
+        Otter otter = new Otter();
+        Sparrow sparrow = new Sparrow();
+        Duck duck = new Duck();
         VeterinaryClinic clinic = new VeterinaryClinic();
-        clinic.addPatients(cat).addPatients(dog);
+        clinic.addPatients(cat).addPatients(dog).addPatients(fish).addPatients(eagle).addPatients(sparrow).addPatients(otter).addPatients(duck);
         //System.out.println(clinic.getPatients());
         System.out.println(clinic.getGoable());
+        Doctor doctor = new Doctor();
+        ArrayList<Personnel> personnels = new ArrayList<>();
+        doctor.setNamePersonnel("Vova");
+        Personnel nurse = new Nurse();
+        nurse.setSurnamePersonnel("lida");
+        System.out.println(clinic.getFlyable());
+
+
+
     }
 }
