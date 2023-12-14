@@ -1,5 +1,5 @@
 import java.time.LocalDate;
-import java.util.ArrayList;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,7 +37,74 @@ public class Main {
         nurse.setSurnamePersonnel("lida");
         System.out.println(clinic.getFlyable());
 
+        PharmacyComponent azitroment = new Azitronit("Azitronit", "10 Мг", 50);
+        PharmacyComponent azitroment1 = new Azitronit("Azitronit", "10 Мг", 50);
+        PharmacyComponent pinicilin = new Pinicilin("Pinicilin", "10 Мг", 120);
+        PharmacyComponent water = new Water("Water", "10 Мг", 20);
+        PharmacyComponent water2 = new Water("Water", "10 Мг", 20);
+
+        List<PharmacyComponent> pharmancyComponents = new ArrayList<>();
+        pharmancyComponents.add(azitroment);
+        pharmancyComponents.add(water2);
+        pharmancyComponents.add(water);
+        pharmancyComponents.add(pinicilin);
+
+        System.out.println(pharmancyComponents);
+
+        Collections.sort(pharmancyComponents);
+        System.out.println(pharmancyComponents);
+
+        Pharmacy pharmacy = new Pharmacy().addComponent(azitroment).addComponent(water);
+        Pharmacy pharmacy1 = new Pharmacy().addComponent(pinicilin).addComponent(water);
+Pharmacy pharmacy2 = new Pharmacy().addComponent(pinicilin).addComponent(azitroment);
+Pharmacy pharmacy3 = new Pharmacy().addComponent(azitroment).addComponent(water);
+        for (Pharmacy it = pharmacy1; it.hasNext(); ) {
+            PharmacyComponent comp = it.next();
+            System.out.println(comp.getName());
+        }
+
+
+        List<Pharmacy> pharmacies = new ArrayList<>();
+        pharmacies.add(pharmacy);
+        pharmacies.add(pharmacy1);
+        pharmacies.add(pharmacy2);
+        pharmacies.add(pharmacy3);
+        System.out.println(pharmacies);
+//for (Pharmacy pharmacy : pharmacies){
+//    System.out.println(pharmacy);
+//}
+
+
+
+
+        Set<PharmacyComponent> set = new HashSet<>();
+        set.add(azitroment);
+        set.add(azitroment1);
+        set.add(azitroment);
+
+        System.out.println("/////////////////////////");
+        System.out.println(set);
+        Set<Pharmacy> result = new HashSet<>(pharmacies);
+
+
+        System.out.println(result.size());
+
+
+        //Collections.sort(pharmacies, new );
+
+
+        //Iterator<PharmancyComponent> iterator = pharmacy1;
+
+//        while (iterator.hasNext()){
+//            System.out.println(iterator.next());
+//        }
+
+//        while (((Iterator<PharmancyComponent>) pharmacy1).hasNext()) {
+//            System.out.println(((Iterator<PharmancyComponent>) pharmacy1).next());
+//        }
+
+    }
+
 
 
     }
-}
