@@ -82,6 +82,5 @@ public class Pharmacy implements Iterator<PharmacyComponent>, Comparable<Pharmac
 //        if (o == null|| getClass() != o.getClass()) return false;
 //        Pharmacy pharmacy = (Pharmacy) o;
 //        return name == pharmacy.name;
-//        return w
 //    }
 }

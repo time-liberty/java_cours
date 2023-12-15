@@ -2,7 +2,7 @@ import java.time.LocalDate;
 import java.util.*;
 
 public class Main {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         Cat cat = new Cat(); //экземпляр класса
         cat.setName("barsic");
         System.out.println(cat.getName());
@@ -85,7 +85,7 @@ Pharmacy pharmacy3 = new Pharmacy().addComponent(azitroment).addComponent(water)
         System.out.println("/////////////////////////");
         System.out.println(set);
         Set<Pharmacy> result = new HashSet<>(pharmacies);
-
+        System.out.println(equals(personnels));
 
         System.out.println(result.size());
 
